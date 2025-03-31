@@ -38,6 +38,7 @@ pub fn context_menu<'a>(
 
     widget::container(column!(
         menu_item(fl!("undo"), Action::Undo),
+        menu_item(fl!("undo"), Action::Undo),
         menu_item(fl!("redo"), Action::Redo),
         divider::horizontal::light(),
         menu_item(fl!("cut"), Action::Cut),
